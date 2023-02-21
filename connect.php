@@ -8,8 +8,8 @@
 	
 	$servername = "phpMyAdmin";
 	$database = "UserName";
-	$username = "username";
-	$password = "password";
+	$username = "lliguiv1";
+	$password = "Newmontclair1";
 
 	// Database connection
 	$conn = new mysqli($servername, $username, $password, $database);
