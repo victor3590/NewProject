@@ -6,7 +6,7 @@
 	$password = $_POST['password'];
 	$number = $_POST['number'];
 	
-	$servername = 'https://cyan.csam.montclair.edu:2083/';
+	$servername = 'https://cyan.csam.montclair.edu:2083';
 	$database = 'lliguiv_new data';
 	$username = 'lliguiv1';
 	$password = 'Newmontclair1';
