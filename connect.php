@@ -6,10 +6,10 @@
 	$password = $_POST['password'];
 	$number = $_POST['number'];
 	
-	$servername = "phpMyAdmin";
-	$database = "lliguiv_new data";
-	$username = "lliguiv1";
-	$password = "Newmontclair1";
+	$servername = 'phpMyAdmin';
+	$database = 'lliguiv_new data';
+	$username = 'lliguiv1';
+	$password = 'Newmontclair1';
 
 	// Database connection
 	$conn = new mysqli($servername, $username, $password, $database);
