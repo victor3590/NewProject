@@ -6,7 +6,7 @@
 	$password = $_POST['password'];
 	$number = $_POST['number'];
 	
-	$servername = 'phpMyAdmin';
+	$servername = 'localhost';
 	$database = 'lliguiv_new data';
 	$username = 'lliguiv1';
 	$password = 'Newmontclair1';
