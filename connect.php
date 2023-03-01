@@ -6,13 +6,14 @@
 	$password = $_POST['password'];
 	$number = $_POST['number'];
 	
-	$servername = 'https://cyan.csam.montclair.edu:2083/cpsess3865035164/3rdparty/phpMyAdmin/sql.php?server=1&db=lliguiv1_new+data&table=UserName&pos=0';
+	$servername = 'localhost';
 	$database = 'lliguiv_new data';
 	$username = 'lliguiv1';
 	$password = 'Newmontclair1';
+	$port= '3306';
 
 	// Database connection
-	$conn = new mysqli($servername, $username, $password, $database);
+	$conn = new mysqli($servername, $username, $password, $database, $port);
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
